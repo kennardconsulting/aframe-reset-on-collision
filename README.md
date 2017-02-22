@@ -22,7 +22,7 @@ bit janky, and it doesn't implement 'wall sliding' when using WASD controls.
 Anyone looking for a quick and dirty solution to stopping people walking through walls in environments
 where they shouldn't really be going anywhere near the walls in the first place. For example, it's not
 good for a First Person Shooter where people try to hug the walls (because it doesn't implement 'wall
-sliding'). But it's fine for an art gallery viewing application.
+sliding'). But it's fine for an [art gallery viewing application](http://blog.kennardconsulting.com/2017/02/virtual-reality-art-show.html).
 
 ## How Do I Use It?
 
