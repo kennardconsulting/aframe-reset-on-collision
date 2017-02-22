@@ -28,4 +28,4 @@ sliding'). But it's fine for an [art gallery viewing application](http://blog.ke
 
 Add to an `a-entity`. For example:
 
-    <a-entity camera reset-on-collision="wall: .wall"/>
+    <a-entity camera reset-on-collision="with: .wall"/>
