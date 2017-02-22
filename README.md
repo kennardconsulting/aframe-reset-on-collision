@@ -1,0 +1,1 @@
+# aframe-reset-on-collision
