@@ -18,11 +18,17 @@
 		init: function() {
 			// Choose a geometry size that is small enough to not get stuck often, but large enough to catch WASD movement
 			
-			this.el.setAttribute( 'geometry', 'width: 0.2; depth: 0.2; height: 0.2' );
+			this.el.setAttribute( 'geometry', 'width: 0.5; depth: 0.5; height: 0.5' );
 			 
 			this.mesh = this.el.getObject3D( 'mesh' );
 			this.boundingBox = new THREE.Box3();
 			this.collideWiths = this.el.sceneEl.querySelectorAll( this.data.with );
+			
+			this.lastKnownGoodPosition = {
+				x: this.el.object3D.position.x,
+				y: this.el.object3D.position.y,
+				z: this.el.object3D.position.z
+			}			
 		},
 	
 		/**
